@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Itim', cursive;
+}
+
+.container {
+    width: 85%;
+    margin: 10vh auto;
+    padding: 2em;
+    background-color: aliceblue;
+}
+
+.input-data {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+h1 + p {
+    padding-top: 2em;
+}
+
+input[type="text"] {
+    /* size: 100; */
+    height: 2em;
+    padding: 0.5em;
+}
+
+input[type="submit"] {
+    padding: 0 0.5em;
+}
+
+.output-data {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+}
