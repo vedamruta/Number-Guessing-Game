@@ -10,9 +10,10 @@ body {
 
 .container {
     width: 85%;
-    margin: 10vh auto;
+    margin: 20vh auto;
     padding: 2em;
     background-color: aliceblue;
+    border: 2px dotted black;
 }
 
 .input-data {
@@ -51,6 +52,8 @@ span, .notification, .near-far {
     padding: 10px 10px;
 }
 #restart {
-    padding: 0;
-    width: auto;
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.4em 0;
 }
